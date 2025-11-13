@@ -38,29 +38,29 @@ import {
 const staticData = {
   navMain: [
     {
-      title: "Dashboard",
-      url: "#",
+      title: "Wind Dashboard",
+      url: "/dashboard",
       icon: IconDashboard,
     },
     {
-      title: "Lifecycle",
-      url: "#",
+      title: "Devices",
+      url: "/dashboard/devices",
       icon: IconListDetails,
     },
     {
-      title: "Analytics",
-      url: "#",
+      title: "Telemetry",
+      url: "/dashboard/telemetry",
       icon: IconChartBar,
     },
     {
-      title: "Projects",
-      url: "#",
-      icon: IconFolder,
+      title: "Alerts",
+      url: "/dashboard/alerts",
+      icon: IconFileDescription,
     },
     {
-      title: "Team",
-      url: "#",
-      icon: IconUsers,
+      title: "Wind Patterns",
+      url: "/dashboard/patterns",
+      icon: IconChartBar,
     },
   ],
   navClouds: [
